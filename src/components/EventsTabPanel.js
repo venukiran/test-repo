@@ -26,10 +26,10 @@ export default class EventsTabPanel extends Component {
                                 <Card sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>                    
                                     <CardContent sx={{ flexGrow: 1 }}>
                                         <Typography gutterBottom variant="h6">
-                                         Event Name
+                                        Sundar kand Path
                                         </Typography>
                                         <Typography variant="body2" color="text.secondary">
-                                            Details of the Event
+                                        Saturday June 11, 2022 at 10:00 a.m. followed by aarti.
                                         </Typography>
                                     </CardContent>                    
                                 </Card>                        
@@ -42,16 +42,64 @@ export default class EventsTabPanel extends Component {
                                 <Card sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>                    
                                     <CardContent sx={{ flexGrow: 1 }}>
                                         <Typography gutterBottom variant="h6">
-                                            Event Name
+                                        SatyaNarayan Puja
                                         </Typography>
                                         <Typography variant="body2" color="text.secondary">
-                                            Details of the Event                                       
+                                        Monday June 13, 2022 at 6:00 p.m. followed by aarti.                                     
                                         </Typography>
                                     </CardContent>                    
                                 </Card>                        
                         </Grid>
                     </Grid>
-                </Box>                
+                </Box>
+                <Box sx={{ border: 0, paddingBottom:"20px", borderColor: 'divider', flexGrow: 1 }}>
+                    <Grid container spacing={2}>
+                        <Grid item xs={12}>                        
+                                <Card sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>                    
+                                    <CardContent sx={{ flexGrow: 1 }}>
+                                        <Typography gutterBottom variant="h6">
+                                        Lord Ganesha’s Abishek and Pooja 
+                                        </Typography>
+                                        <Typography variant="body2" color="text.secondary">
+                                        Thursday June 16, 2022 at 5:30 p.m. followed by aarti                                     
+                                        </Typography>
+                                    </CardContent>                    
+                                </Card>                        
+                        </Grid>
+                    </Grid>
+                </Box>
+                <Box sx={{ border: 0, paddingBottom:"20px", borderColor: 'divider', flexGrow: 1 }}>
+                    <Grid container spacing={2}>
+                        <Grid item xs={12}>                        
+                                <Card sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>                    
+                                    <CardContent sx={{ flexGrow: 1 }}>
+                                        <Typography gutterBottom variant="h6">
+                                        Meru Yantra Abishek Pooja and Lalita sahasanama KumKuma Archana 
+                                        </Typography>
+                                        <Typography variant="body2" color="text.secondary">
+                                        Saturday June 18, 2022 at 10:30 a.m. followed by aarti                                    
+                                        </Typography>
+                                    </CardContent>                    
+                                </Card>                        
+                        </Grid>
+                    </Grid>
+                </Box>   
+                <Box sx={{ border: 0, paddingBottom:"20px", borderColor: 'divider', flexGrow: 1 }}>
+                    <Grid container spacing={2}>
+                        <Grid item xs={12}>                        
+                                <Card sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>                    
+                                    <CardContent sx={{ flexGrow: 1 }}>
+                                        <Typography gutterBottom variant="h6">
+                                        Gayatri Mantra Jaap  
+                                        </Typography>
+                                        <Typography variant="body2" color="text.secondary"> 
+                                        Sunday June 19, 2022 at 3:00 p.m. followed by Bhagwati Kirtan & aarti                                    
+                                        </Typography>
+                                    </CardContent>                    
+                                </Card>                        
+                        </Grid>
+                    </Grid>
+                </Box>                                              
             </div>
         )
     }

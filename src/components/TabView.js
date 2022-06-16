@@ -26,20 +26,23 @@ export default function TabView() {
             <Tab label="History" value="1" />
             <Tab label="Timings" value="2" />
             <Tab label="Events" value="3" />
-            <Tab label="Donate / Bookings" value="4" />
+            <Tab label="Bookings" value="4" />
+            <Tab label="Donate" value="5" />
+            <Tab label="Gallery" value="6" />
+            <Tab label="Contact Us" value="7" />            
           </TabList>
         </Box>
         <TabPanel value="1"> Temple History
           <HistoryTabPanel/>
         </TabPanel>
-        <TabPanel value="2"> Pooja Time Slots
+        <TabPanel value="2"> Temple Timings
           <TimingsTabPanel/>
         </TabPanel>
-        <TabPanel value="3">Temple Events
+        <TabPanel value="3">Upcoming Events
           <EventsTabPanel/>
         </TabPanel>
-        <TabPanel value="4">Donate / Booking Pooja
-          
+        <TabPanel value="4">Booking Pooja
+                
         </TabPanel>
       </TabContext>
     </Box>

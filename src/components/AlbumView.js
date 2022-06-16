@@ -36,20 +36,20 @@ const mandirs = [
   {
     "key" : 2,
     "image" :  "img2",
-    "name" : "Sriram Mandir",
-    "details": " 'Sriram Mandir in Princeton, New Jersey, USA' \n A place where you will meet your peace"
+    "name" : "Sai Baba Mandir",
+    "details": " 'Sai Baba Mandir in Princeton, New Jersey, USA' \n A place where you will meet your peace"
   },
   {
     "key" : 3,
     "image" :  "img3",
-    "name" : "Hanuman Mandir",
-    "details": " 'Hanuman Mandir in Princeton, New Jersey, USA' \n A place where you will meet your peace"
+    "name" : "Siva Mandir",
+    "details": " 'Siva Mandir in Princeton, New Jersey, USA' \n A place where you will meet your peace"
   },
   {
     "key" : 4,
     "image" :  "img4",
-    "name" : "Saraswati Mandir",
-    "details": " 'Saraswati Mandir in Princeton, New Jersey, USA' \n A place where you will meet your peace"
+    "name" : "Ganapathi Mandir",
+    "details": " 'Ganapathi Mandir in Princeton, New Jersey, USA' \n A place where you will meet your peace"
   },
   {
     "key" : 5,

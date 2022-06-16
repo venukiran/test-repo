@@ -7,7 +7,10 @@ import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import Card from '@mui/material/Card';
 import Typography from '@mui/material/Typography';
-
+import img1_1 from '../images/img1_1.jpg';
+import img1_2 from '../images/img1_2.jpg';
+import img1_3 from '../images/img1_3.jpg';
+import img1_4 from '../images/img1_4.jpg';
 /*
 const Item = styled(Paper)(({ theme }) => ({
     ...theme.typography.body2,
@@ -25,12 +28,12 @@ export default class HistoryTabPanel extends Component {
                         <Grid item xs={4}>                       
                                 <CardMedia
                                     component="img"
-                                    height="150"
+                                    height="300"
                                     //sx={{
                                     // 16:9
                                 //   pt: '56.25%',                      
                                 // }}
-                                    image="https://source.unsplash.com/random"
+                                    image= {img1_1}  //"https://source.unsplash.com/random"
                                     alt="random"
                                 />                      
                         </Grid>
@@ -38,10 +41,10 @@ export default class HistoryTabPanel extends Component {
                                 <Card sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>                    
                                     <CardContent sx={{ flexGrow: 1 }}>
                                         <Typography gutterBottom variant="h6">
-                                         Temple Name
+                                         History of the Temple
                                         </Typography>
                                         <Typography variant="body2" color="text.secondary">
-                                            Details of the temple
+                                            Details 
                                         </Typography>
                                     </CardContent>                    
                                 </Card>                        
@@ -53,12 +56,12 @@ export default class HistoryTabPanel extends Component {
                         <Grid item xs={4}>                       
                                 <CardMedia
                                     component="img"
-                                    height="150"
+                                    height="300"
                                     //sx={{
                                     // 16:9
                                 //   pt: '56.25%',                      
                                 // }}
-                                    image="https://source.unsplash.com/random"
+                                    image= {img1_2} //"https://source.unsplash.com/random"
                                     alt="random"
                                 />                      
                         </Grid>
@@ -66,10 +69,10 @@ export default class HistoryTabPanel extends Component {
                                 <Card sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>                    
                                     <CardContent sx={{ flexGrow: 1 }}>
                                         <Typography gutterBottom variant="h6">
-                                        Temple Name
+                                            History of the Temple
                                         </Typography>
                                         <Typography variant="body2" color="text.secondary">
-                                            Details of the temple                                       
+                                            Details                                     
                                         </Typography>
                                     </CardContent>                    
                                 </Card>                        
@@ -81,12 +84,12 @@ export default class HistoryTabPanel extends Component {
                         <Grid item xs={4}>                       
                                 <CardMedia
                                     component="img"
-                                    height="150"
+                                    height="300"
                                     //sx={{
                                     // 16:9
                                 //   pt: '56.25%',                      
                                 // }}
-                                    image="https://source.unsplash.com/random"
+                                    image= {img1_3}  //"https://source.unsplash.com/random"
                                     alt="random"
                                 />                      
                         </Grid>
@@ -94,10 +97,10 @@ export default class HistoryTabPanel extends Component {
                                 <Card sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>                    
                                     <CardContent sx={{ flexGrow: 1 }}>
                                         <Typography gutterBottom variant="h6">
-                                        Temple Name
+                                        History of the Temple
                                         </Typography>
                                         <Typography variant="body2" color="text.secondary">
-                                            Details of the temple
+                                        Details 
                                         </Typography>
                                     </CardContent>                    
                                 </Card>                        
@@ -109,12 +112,12 @@ export default class HistoryTabPanel extends Component {
                         <Grid item xs={4}>                       
                                 <CardMedia
                                     component="img"
-                                    height="150"
+                                    height="300"
                                     //sx={{
                                     // 16:9
                                 //   pt: '56.25%',                      
                                 // }}
-                                    image="https://source.unsplash.com/random"
+                                    image= {img1_4} //"https://source.unsplash.com/random"
                                     alt="random"
                                 />                      
                         </Grid>
@@ -122,10 +125,10 @@ export default class HistoryTabPanel extends Component {
                                 <Card sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>                    
                                     <CardContent sx={{ flexGrow: 1 }}>
                                         <Typography gutterBottom variant="h6">
-                                        Temple Name
+                                            History of the Temple
                                         </Typography>
                                         <Typography variant="body2" color="text.secondary">
-                                            Details of the temple
+                                            Details 
                                         </Typography>
                                     </CardContent>                    
                                 </Card>                        

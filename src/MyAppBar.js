@@ -99,6 +99,7 @@ export default function MyAppBar() {
                         aria-labelledby="composition-button"
                         onKeyDown={handleListKeyDown}
                       >
+                        <MenuItem component={Link} to="/AlbumView" onClick={handleClose}>Home</MenuItem>
                         <MenuItem onClick={handleClose}>Profile</MenuItem>
                         <MenuItem onClick={handleClose}>Transaction History</MenuItem>
                         <MenuItem onClick={handleClose}>Notifications</MenuItem>
