@@ -7,6 +7,7 @@ import TabPanel from '@mui/lab/TabPanel';
 import HistoryTabPanel from './HistoryTabPanel';
 import TimingsTabPanel from './TimingsTabPanel';
 import EventsTabPanel from './EventsTabPanel';
+import LiveStreamPanel from './LiveStreamPanel'
 
 
 export default function TabView() {
@@ -42,7 +43,7 @@ export default function TabView() {
           <EventsTabPanel/>
         </TabPanel>
         <TabPanel value="4">Booking Pooja
-                
+           <LiveStreamPanel/>     
         </TabPanel>
       </TabContext>
     </Box>
